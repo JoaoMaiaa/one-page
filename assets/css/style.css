@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    background-color: #202020;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    align-items: center;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    width:990px;
+}
+
+.column{
+    flex-direction:column;
+}
+
+.logo h1{
+    color:#fff;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav ul li{
+    color:#fff;
+    margin-left: 10px;
+    font-size:22px;
+}
+
+nav ul li:hover{
+    border-bottom:2px solid #fff;
+}
+
+#product{
+    display:flex;
+    flex:2;
+    justify-content: center;
+    background-color: rgb(120, 120, 233);
+    padding-top: 50px ;
+    padding-bottom: 30px ;
+    flex-wrap: wrap;
+}
+
+img{
+    width:500px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+}
+
+.desc{
+    padding-left:25px
+}
+
+.desc h1{
+    color: #fff;
+    font-size:50px;
+    margin-bottom: 20px;
+}
+
+.desc p{
+    font-size: 17px;
+    color:#202020;
+}
+
+.desc button{
+    padding:10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    margin-top:20px;
+}
+
+.desc button:hover{
+    background-color: #202020;
+    color:#fff;
+}
+
+#info{
+    display:flex;
+    justify-content:center;
+    /* padding-bottom:300px; */
+}
+
+.more_info{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    flex-direction:column;
+    margin-top:30px;
+}
+
+.more_info h1{
+    display:flex;
+    font-size: 35px;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.more_info p{
+    display:flex;
+    font-size: 17px;
+    justify-content: center;
+}
+
+.about{
+    display:flex;
+    flex:3;
+}
+
+.more{
+    margin-top: 200px;
+}
+
+.more h1{
+    text-align:center;
+    font-size:30px;
+}
+
+.more p{
+    margin-top:20px;
+    text-align:center;
+    line-height:25px;
+    padding-bottom:50px;
+}
+
+footer{
+    background-color: #202020;
+    width:100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+footer .container{
+    display:flex;
+    justify-content: center;
+}
+
+footer p{
+    color:#fff;
+}
+
